@@ -1,0 +1,13 @@
+module logic_gates(
+    input a,
+    input b,
+    output y0,
+    output y1,
+    output y2
+);
+
+assign y0 = a & b;
+assign y1 = a | b;
+assign y2 = a ^ b;
+
+endmodule
